@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    font-family: "Noto Sans Georgian", sans-serif;    
+}
+
+.site-header{
+    width: 100%;
+    height: 60px;
+    background-color: #151515;
+    display: flex;
+    gap: 50px;
+    color: rgba(245, 245, 245, 0.767);
+}
+
+.question-style{
+    color: rgba(245, 245, 245, 0.767);
+}
+
+.head-number{
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 14px;    
+}
+
+.head-stories{
+    width: 100px;
+    margin-top: 10px;   
+    font-size: 14px; 
+}
+
+.head-how-to-buy{
+    width: 100px;
+    margin-top: 10px;  
+    font-size: 14px;  
+}
+.head-english{
+    margin-top: 30px;
+    margin-left: 500px;
+    font-size: 14px; 
+}
+.head-georgian{
+    margin-top: 30px;
+    font-size: 14px; 
+}
+
+.nav-container{
+    margin-top: 5px;
+
+}
+.nav-table, .table-computer, .table-mobile, .table-image, .table-tv, .table-hometech, .table-home-garden, .table-empty{
+    border: 2px solid gray;
+    border-collapse: collapse;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: left;
+    
+}
+.table-empty{
+    width: 100px;
+}
+.nav-table{
+    height: 60px;
+}
+.tab-image{
+    padding-left: 40px;
+    padding-right: 20px;
+    width: 220px;
+    height: 40px;
+}
+
+.table-computer, .table-mobile, .table-tv, .table-hometech, .table-home-garden{
+    position: relative;
+ 
+   
+}
+
+.dropdown-computer{
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    margin-top: 12px;
+    width: 1282px; 
+    margin-left: -260px;
+    height: 500px;
+    padding-top: 10px;
+   
+}
+.table-computer:hover .dropdown-computer{
+    display: block;
+}
+.dropdown-personal-computer, .dropdown-menu-mobile{
+    display: flex;
+}
+.table-mobile:hover .dropdown-mobile{
+    display: block;
+}
+.table-tv:hover .dropdown-TV{
+    display: block;
+}
+.table-hometech:hover .dropdown-hometech{
+    display: block;
+}
+.table-home-garden:hover .dropdown-home-garden{
+    display: block;
+}
+.dowpdown-font-style{
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+.dropdown-space-between-lines{
+    padding-top: 3px;
+    list-style-type: none;
+}
+.dropdown-mobile{
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    margin-top: 12px;
+    width: 1290px; 
+    margin-left: -450px;
+    height: 500px;
+    padding-top: 10px;
+}
+.dropdown-TV{
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    margin-top: 12px;
+    width: 1290px; 
+    margin-left: -625px;
+    height: 500px;
+    padding-top: 10px;
+}
+.mobile-first-row{
+    padding-left: 10px;
+}
+.mobile-second-row, .computer-first-row{
+    margin-left: 30px;
+}
+.ateg-style{
+    text-decoration: none;
+    color: black;
+}
+.bi-chevron-double-right{
+    font-size: 6px;
+    padding-right: 5px;
+}
+.TV-first-row, .TV-second-row, TV-third-row{
+    padding-left: 10px;
+}
+.dropdown-hometech{
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    margin-top: 12px;
+    width: 1282px; 
+    margin-left: -868px;
+    height: 640px;
+    padding-top: 10px;
+   
+}
+.hometech-first-row{
+    padding-left: 10px;
+}
+.dropdown-home-garden{
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    margin-top: 12px;
+    width: 1282px; 
+    margin-left: -1060px;
+    height: 500px;
+    padding-top: 10px;
+   
+}
+.home-garden-first-row{
+    padding: 10px;
+}
+.nav-menu-hover:hover {
+    font-weight:400;
+}
+.nav-menu-hover{
+    padding-left: 5px;
+}
+.dropdown-link{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-link:hover{
+    color: rgb(16, 16, 230);
+    font-weight: 500;
+}
+.search .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
