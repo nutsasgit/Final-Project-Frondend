@@ -328,193 +328,62 @@
     color: blue;
   }
 
-  /* START CAROUSEL STYLES */
- 
-
-.carousel-inner img{
-    max-width: 1320px;
-    padding-left: 50px;
-    
-}
-/*  END CAROUSEL STYLE */
-/* START UNDER CAROUSEL STYLE */
-.main-section{
-    border: 1px solid #dbd8d8;
-    border-radius: 3px;
-    width: 1270px;
-    height: 2000px;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-.notebooks, .smartphones, .ha, .kitchen{
+/*  START MAIN CONTAINER */
+.main-container{
+    width: 1280px;
+    height: 500px;
+    border: 1px solid #ccc;
     display: flex;
-}
-.under-carousel{
-    display: flex;
-    height: 150px;
-    border-bottom: 1px solid #dbd8d8;
-}
-.notebooks{
-    border: 1px solid #dbd8d8;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 20px;
-    border-radius: 3px;
-    
-}
-.notebooks img{
-    position: relative;
-    top: -13px;
-    left: 12px;
-}
-.notebooks p{
-    padding-left: 8px;
-    font-size: 12px;
-}
-#under-carousel-notebooks{
-    padding-top: 10px;
-    font-weight: 600;
-}
-#under-carousel-notebooks a{
-    color: black;
-    text-decoration: none;
-}
-
-#under-carousel-notebooks a:hover{
-    color: gray;
-}
-
-.smartphones{
-    border: 1px solid #dbd8d8;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 20px;
-    border-radius: 3px;
-}
-.smartphones img{
-    position: relative;
-    top: -13px;
-    left: 12px;
-}
-.smartphones p{
-    padding-left: 8px;
-    font-size: 12px;
-}
-#under-carousel-smartphones{
-    padding-top: 10px;
-    font-weight: 600;
-}
-#under-carousel-smartphones a{
-   color: black;
-   text-decoration: none;
-}
-#under-carousel-smartphones a:hover{
-    color: gray;
-}
-.ha{
-    border: 1px solid #dbd8d8;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 20px;
-    border-radius: 3px;
-}
-.ha img{
-    position: relative;
-    top: -13px;
-    left: 12px;
-}
-.ha p{
-    padding-left: 8px;
-    font-size: 12px;
-}
-#under-carousel-ha{
-    padding-top: 10px;
-    font-weight: 600;
-}
-#under-carousel-ha a{
-    color: black;
-    text-decoration: none;
-}
-#under-carousel-ha a:hover{
-    color: gray;
-}
-.ha-text{
-    width: 190px;
-}
-.kitchen{
-    border: 1px solid #dbd8d8;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 20px;
-    border-radius: 3px;
-}
-.kitchen img{
-    position: relative;
-    top: -13px;
-    left: 12px;
-}
-.kitchen p{
-    padding-left: 8px;
-    font-size: 12px;
-}
-#under-carousel-kitchen{
-    padding-top: 10px;
-    font-weight: 600;
-}
-#under-carousel-kitchen a{
-   color: #151515;
-   text-decoration: none;
-}
-#under-carousel-kitchen a:hover{
-    color: gray;
-}
-/*  START ONLY-ONLYNE */
-.only-online{
-    width: 1220px;
-    border: 1px solid #dbd8d8;
-    margin-left: 20px;
+    background-color: white;
+    gap: 15px;
     margin-top: 20px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(140, 76, 242, 0.84);
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    margin-left: 40px;
+
 }
-.arrow-line{
-    width: 1220px;
+.table-container{
     margin-left: 20px;
-    height: 50px;
-    display: flex;
-    justify-content: flex-end;
-    border: 1px solid #dbd8d8;
+    margin-top: 10px;
+    border-radius: 3px;
+}
 
+tr{
+    border-bottom: 1px solid black;
+    border-style: dotted;
+}
+.storys{
+    width: 600px;
+    max-height: 450px; 
+    overflow-y: scroll; /* Enables vertical scrolling */
+    padding: 10px;
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9; 
+    box-shadow: 0px 4px 6px rgba(12, 60, 58, 0.1); /* Optional: Add a shadow effect */
+    
+}
+
+.purple-shift{
+    color: purple;
 
 }
-.arrow-left, .arrow-right{
-    width: 45px;
-    border: 1px solid #dbd8d8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.space-row-top{
+    padding-top: 10px;
+    
 }
-.arrow-left:hover{
-    background-color: #dbd8d8;
+.space-row-button{
+    padding-bottom: 10px;
 }
-.arrow-right:hover{
-    background-color: #dbd8d8;
+table p{
+    padding-top: 8px;
 }
-.bi-chevron-left, .bi-chevron-right{
-    color: black;
+.bi-geo-alt-fill{
     font-size: 20px;
+    color: purple;
 }
-
-
-
+.map{
+    width: 650px;
+    height: 450px;
+    margin-top: 10px;
+}
 
 /* START FOOTER */
 .site-footer-content{
