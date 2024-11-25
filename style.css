@@ -598,8 +598,8 @@
     background-color: red;
     width: 50px;
     height: 1px;
-    display: inline-block; /* Ensure it's displayed properly */
-    margin-top: 10px; /* Optional: adjust space as needed */
+    display: inline-block; 
+    margin-top: 10px; 
     position: absolute;
     left: 80px;
     transform: rotate(10deg);
@@ -610,8 +610,8 @@
     background-color: red;
     width: 40px;
     height: 1px;
-    display: inline-block; /* Ensure it's displayed properly */
-    margin-top: 10px; /* Optional: adjust space as needed */
+    display: inline-block; 
+    margin-top: 10px; 
     position: absolute;
     top: 1185px;
     transform: rotate(10deg);
@@ -638,8 +638,8 @@
     background-color: red;
     width: 50px;
     height: 1px;
-    display: inline-block; /* Ensure it's displayed properly */
-    margin-top: 10px; /* Optional: adjust space as needed */
+    display: inline-block; 
+    margin-top: 10px; 
     position: absolute;
     top: 1185px;
     transform: rotate(10deg);
