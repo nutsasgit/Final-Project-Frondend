@@ -89,6 +89,10 @@
     z-index: 1050;
    
 }
+.dropdown-computer a:hover{
+    text-decoration: none;
+    color: purple;
+}
 .table-computer:hover .dropdown-computer{
     display: block;
 }
@@ -107,6 +111,7 @@
 .table-home-garden:hover .dropdown-home-garden{
     display: block;
 }
+
 .dowpdown-font-style{
     color: black;
     font-weight: 400;
@@ -128,6 +133,10 @@
     background-color: white;
     z-index: 1050;
 }
+.dropdown-mobile a:hover{
+    text-decoration: none;
+    color: purple;
+}
 .dropdown-TV{
     display: none;
     position: absolute;
@@ -139,6 +148,10 @@
     padding-top: 10px;
     background-color: white;
     z-index: 1050;
+}
+.dropdown-TV a:hover{
+    text-decoration: none;
+    color: purple;
 }
 .mobile-first-row{
     padding-left: 10px;
@@ -157,6 +170,7 @@
 .TV-first-row, .TV-second-row, TV-third-row{
     padding-left: 10px;
 }
+
 .dropdown-hometech{
     display: none;
     position: absolute;
@@ -169,6 +183,10 @@
     background-color: white;
     z-index: 1050;
    
+}
+.dropdown-hometech a:hover{
+    text-decoration: none;
+    color: purple;
 }
 .hometech-first-row{
     padding-left: 10px;
@@ -185,6 +203,10 @@
     background-color: white;
     z-index: 1050;
    
+}
+.dropdown-home-garden a:hover{
+    text-decoration: none;
+    color: purple;
 }
 .home-garden-first-row{
     padding: 10px;
@@ -203,6 +225,8 @@
     color: rgb(16, 16, 230);
     font-weight: 500;
 }
+/* END DROPDOWN MENU */
+/* START SECOND NAV */
 .second-nav{
     border-bottom: 1px solid #ababab;
     padding-bottom: 10px;
@@ -676,17 +700,151 @@
 .empty{
     width: 300px;
 }
-.footer-end{
+.footer-end-container{
     border-top: 1px solid #dbd8d8;
+    display: flex;
 }
 .copyright{
     margin-top: 20px;
     margin-left: 50px;
     color: #ababab;
 }
+.site-footer-content a:hover{
+    color: purple;
+    text-decoration: none;
+    font-weight: 400;
+}
+.mastercard img{
+    width: 50px;
+}
+.visa img{
+    width: 50px;
+}
+.pay img{
+    width: 60px;
+    padding-top: 5px;
+}
+.payment-icons{
+    display: flex;
+    margin-left: 800px;
+    gap: 5px;
+}
+/* END FOOTER */
+/* START MIDDLE-DIV-SECTION */
+.middle-div-container{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
 
+.tv img{
+    width: 600px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.tv-title{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    border: 1px solid #111010;
+    border-style: dotted;
+    background-color: #D4F6FF;
+    padding-left: 20px;
+    
+}
+.tv-title:hover{
+    border: 1px solid #dbd8d8;
+    
+}
+.tv-title-h5:hover{
+    color: purple;
+    
+}
+.playstation-xbox{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+.playstation, .xbox{
+    display: flex;
+    gap: 30px;
+}
+.middle-div-pc-and-coffee{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pc-image img{
+    width: 300px;
+    height: 250px;
+    border-radius: 3px;
+}
+.coffe-image img{
+    width: 300px;
+    height: 250px;
+    border-radius: 3px;
+}
+.playstation-xbox{
+    border: 1px solid #dbd8d8;
+}
+.playstation a{
+    text-decoration: none;
+    color: black;
+}
+.playstation a:hover{
+    color: purple;
+    text-decoration: none;
+}
+.xbox a{
+    text-decoration: none;
+    color: black;
+}
+.xbox a:hover{
+    color: purple;
+    text-decoration: none;
+}
+.middle-div-pc{
+    display: flex;
+}
+.pc-table td{
+    font-size: 13px;
+}
+.pc-table, .coffe-table{
+    border: 1px solid #dbd8d8;
+    border-collapse: collapse;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+  }
   
-
+  .tr-style{
+    border-bottom: 1px solid #ddd;
+    
+  }
+  .table-space{
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+.number-end{
+    text-align: right;
+    padding-right: 5px;
+}
+.middle-div-coffee{
+    display: flex;
+}
+tr a{
+    color: black;
+}
+tr a:hover{
+    text-decoration: none;
+    color: purple;
+}
 
 
 
