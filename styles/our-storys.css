@@ -360,6 +360,27 @@ tr{
     box-shadow: 0px 4px 6px rgba(12, 60, 58, 0.1); /* Optional: Add a shadow effect */
     
 }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #9d37b9 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9d37b9;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
 
 .purple-shift{
     color: purple;
