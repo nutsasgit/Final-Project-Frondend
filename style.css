@@ -653,6 +653,8 @@
 .black-friday-sale-img{
     position: absolute;
     top: -270px;
+    width: 100px;
+    height: 70px; /* Adjust height only */
     
 }
 /* START BLACK FRIDAY STYLES */
