@@ -7,7 +7,7 @@
 .site-header{
     width: 100%;
     height: 60px;
-    background-color: #151515;
+    background-color: rgb(61, 6, 112);
     display: flex;
     gap: 50px;
     color: rgba(245, 245, 245, 0.767);
@@ -363,7 +363,7 @@
     height: 45px;
     width: 120px;
     color: white;
-    background-color: #151515;
+    background-color: #0a6d7f;
     border: none;
     border-radius: 3px;
   }
@@ -830,7 +830,7 @@
 }
 .productTitle{
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 75px;
     margin-top: -70px;
 }
 .productTitle:hover{
@@ -854,7 +854,6 @@
     background-color: red;
     width: 50px;
     height: 1px;
-    /* display: inline-block;  */
     margin-top: 10px; 
     position: absolute;
     left: 80px;
@@ -876,7 +875,6 @@
     background-color: red;
     width: 40px;
     height: 1px;
-    /* display: inline-block;  */
     margin-top: 10px; 
     position: absolute;
     top: 1185px;
@@ -890,9 +888,7 @@
 }
 @media screen and (max-width: 500px) {
     .smart-phone-card::after{
-        /* top: 1305px;
-        left: 460px; */
-        display: none;
+       display: none;
     }
 }
 
@@ -950,13 +946,7 @@
     margin-top: -7px;
     
 }
-.black-friday-sale-img{
-    position: absolute;
-    top: -270px;
-    width: 100px;
-    height: 70px; 
-    
-}
+
 @media screen and (max-width: 800px) {
     .silverline-card{
         width: 400px !important;
