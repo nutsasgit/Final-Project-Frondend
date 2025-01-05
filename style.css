@@ -15,6 +15,7 @@
 
 .question-style{
     color: rgba(245, 245, 245, 0.767);
+    font-size: 15px;
 }
 
 .head-number{
@@ -307,6 +308,7 @@
 }
 .nav-menu-hover{
     padding-left: 5px;
+    font-size: 15px;
 }
 .dropdown-link{
     text-decoration: none;
@@ -369,6 +371,7 @@
   }
   .fa-truck{
     transform: rotateY(180deg);
+    color: #0a6d7f;
   }
   .second-nav-icons{
     display: flex;
@@ -420,6 +423,12 @@
   }
   .responsivity-user{
     display: none;
+  }
+  .fa-balance-scale{
+    color: #0a6d7f;
+  }
+  .bi-suit-heart-fill{
+    color: #0a6d7f;
   }
   /* END SECOND NAV */
   /* SART SECOND NAV RESPONSIV */

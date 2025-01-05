@@ -7,7 +7,7 @@
 .site-header{
     width: 100%;
     height: 60px;
-    background-color: #151515;
+    background-color: rgb(61, 6, 112);
     display: flex;
     gap: 50px;
     color: rgba(245, 245, 245, 0.767);
@@ -458,12 +458,13 @@
     height: 45px;
     width: 120px;
     color: white;
-    background-color: #151515;
+    background-color: #0a6d7f;
     border: none;
     border-radius: 3px;
   }
   .fa-truck{
     transform: rotateY(180deg);
+    color: #0a6d7f;
   }
   .second-nav-icons{
     display: flex;
@@ -512,6 +513,12 @@
   }
   .login:hover{
     color: blue;
+  }
+  .fa-balance-scale{
+    color: #0a6d7f;
+  }
+  .bi-suit-heart-fill{
+    color: #0a6d7f;
   }
 
 /*  START MAIN CONTAINER */
