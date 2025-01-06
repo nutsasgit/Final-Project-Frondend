@@ -1,7 +1,3 @@
-# Final-Project-Frondend for IT-STEP
-This project is an assignment from a front-end development course. 
-The website represents an electric product shop and includes multiple pages showcasing the store's offerings and information.
-
 # Features
 Multi-Language Support: The site is available in two languages — Georgian and English.
 # Pages Included:
